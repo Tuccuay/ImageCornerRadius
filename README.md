@@ -12,3 +12,15 @@ imageView.image = originalImage?.makeImageCornerRadius(8)
 
 well down.
 no off-screen rending.
+
+
+## all method
+```swift
+// UIImage
+func makeImageCornerRadius(radius: CGFloat) -> UIImage
+func makeImageCircle() -> UIImage
+
+// UIImageView
+convenience init(frame: CGRect, image: UIImage, radius: CGFloat)
+convenience init(frame: CGRect, image: UIImage, cricle: Bool)
+```
